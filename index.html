@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Rumbo</title>    
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+<body>
+    <!-- el header es el que contiene toda la parte de la cabecera -->
+    <header>
+        <!-- la clase container sirve para centrar el contenido en 1200px -->
+        <div class="container">
+            <nav>
+                <!-- nav es la barra de navegacion lleva el logo y el menu -->
+                <div id="logo">
+                    <!-- el logo se encuentra dentro de una etiqueta a puesto
+                         que debe funcionar como un boton que redireccione al home -->
+                    <a href="#"><img src="img/pngwing.com.png" alt=""></a>
+                </div>
+                <div id="menu">
+                  <ul>
+                      <li><a href="#">Inicio</a></li>
+                      <li><a href="#planes">Audiovisual</a></li>
+                      <li><a href="#destinos">Fotografía</a></li>
+                      <li><a href="#contacto">Contacto</a></li>    
+                  </ul>  
+                </div>
+            </nav>
+           
+            <div id="hero">
+                <img src="img/pngwing.com.png" alt="">
+                <h1>AUDIOVISUAL</h1>
+                <h3>UN SITIO IDEAL PARA FOTOGRÁFOS</h3>
+                <button>COMENZAR</button>
+            
+            </div>
+        </div>
+
+    </header>
+    <!-- la etiqueta de cierre es la que lleva / -->
+    <!-- fin seccion header -->
+
+    <!-- inicio seccion planes -->
+    <div id="planes">
+        <div class="container">
+        <!-- en un sitio web solo debe existir un h1, es el que es reconocido por el navegador -->
+            <h2>AUDIOVISUAL</h2> 
+            <p>Producción de contenidos para medios de comunicación audiovisuales; 
+                especialmente el cine y fotografia. 
+            <div class="row">
+                <div class="item-planes">
+                    <img src="img/Fotografia.jpg" alt="">
+                    <h3>FOTOGRAFÍA</h3>
+                    <P>El arte y la técnica de obtener <br>
+                        mágenes duraderas debido <br>
+                        a la acción de la luz.<br>
+                        
+                </div>
+                <div class="item-planes">
+                    <img src="img/Videografia.jpg" alt="">
+                    <h3>VIDEOGRAFÍA</h3>
+                    <P>Procedimiento de telecomunicación<br>
+                        que permite la visualización<br>
+                        de imágenes.<br>
+                        
+                </div>
+                <div class="item-planes">
+                    <img src="img/Edición.jpg" alt="">
+                    <h3>EDICIÓN</h3>
+                    <P>Es el proceso mediante el que<br>
+                        se edita una pieza artística,<br>
+                        cuidando de su forma y su contenido.<br>
+                        x
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- fin seccion planes -->
+
+    <!-- inicio seccion destino -->
+    <div id="destinos">
+        <div class="container">
+            <h2>FOTOGRAFÍA</h2>
+            <div class="row">
+                <div class="item-destinos">
+                    <img src="img/1 (5).jpg-1.png" alt="">
+                    <h3>URBEX</h3>
+                </div>
+                <div class="item-destinos">
+                    <img src="img/1 (7).jpg.png" alt="">
+                    <h3>PAISAJE</h3>
+            </div>
+            
+
+            </div>
+            <div class="row">
+                <div class="item-destinos2">
+                    <img src="img/Vintage.jpg.png" alt="">
+                    <h3>VINTAGE</h3>
+                </div>
+                <div class="item-destinos2">
+                    <img src="img/Digital.jpg.png" alt="">
+                    <h3>DIGITAL</h3>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<!-- inicio contacto -->
+    <div id="contacto">
+        <div class="container">
+            <h1>CONTACTO</h1>
+            <p> Comparte con nosotros tus datos y te enviaremos<br>toda la informacón audiovisual.
+            </p>
+            <form action="#">
+                <div class="row">
+                    <input class="campof" type="text" placeholder="Nombres:"> 
+                    <input class="campof" type="number" placeholder="Teléfono:">               
+                </div>
+                <div class="row">
+                    <input class="campof" type="email" placeholder="Email:"> 
+                    <select class="campof"  name="#" id="#">
+                        <option value="#">Ciudad</option>
+                        <option value="#">Bogotá</option>
+                        <option value="#">Medellín</option>
+                        <option value="#">Cartagena</option>
+                    </select>
+                </div>
+                <button>ENVIAR</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- inicio footer -->
+
+    <footer>
+        <p>© Nos reservamos todos los derechos</p>
+        <p>audiovisual@gmail.com</p>
+        <p>+57 3212444445</p>
+        <p>Cr 7 #93 - 20</p>
+    </footer>
+</body>
+</html>
